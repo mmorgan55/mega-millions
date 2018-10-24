@@ -11,5 +11,4 @@ public class PickApplication extends Application {
     super.onCreate();
     Stetho.initializeWithDefaults(this);
   }
-
 }
