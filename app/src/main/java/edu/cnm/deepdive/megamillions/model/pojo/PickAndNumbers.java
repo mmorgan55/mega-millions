@@ -11,7 +11,7 @@ public class PickAndNumbers {
   @Embedded
   private Pick pick;
 
-  @Relation(parentColumn =  "pick_id", entityColumn = "pick_id")
+  @Relation(parentColumn = "pick_id", entityColumn = "pick_id")
   private List<PickNumber> numbers;
 
   public Pick getPick() {
